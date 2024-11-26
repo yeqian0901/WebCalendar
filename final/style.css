@@ -1,0 +1,76 @@
+#titre {
+  text-align: center;
+}
+
+#avantEtapres {
+  text-align: center;
+}
+
+.calendrierdBouton {
+  width: 40%;
+  padding: 10px;
+  background: rgb(24, 166, 194);
+  display: inline-block;
+}
+
+.calendrierdBouton:hover {
+  background-color: rgb(168, 177, 177);
+}
+
+table {
+  position: relative;
+  table-layout: fixed;
+  width: 100%;
+  /* width: 1500px; */
+  border-collapse: collapse;
+  border: 1px solid;
+  font-size: 1em;
+}
+
+td,
+th {
+  position: relative;
+  border: 1px solid;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.jour {
+  border: 1px solid;
+  padding: 10px;
+  background-color: rgb(22, 210, 28);
+}
+
+.groupe {
+  border: 1px solid;
+  padding: 10px;
+  background-color: rgb(209, 224, 209);
+}
+
+.bouttonAjouteCours {
+  padding: 10px;
+  position: absolute;
+  top: 40%;
+  right: 40%;
+}
+
+.horaire {
+  border: 1px solid;
+  /*padding: 10px;*/
+  background-color: rgb(209, 224, 209);
+}
+
+.editBouton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* transform: translate(-50%, -50%);  */
+}
+
+/*pas fini*/
+/* .p{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1em  ;
+}  */

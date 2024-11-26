@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylelog.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <form method="post" id="loginform" action="login.php">
+      <fieldset>
+        <legend>Bonjour, vous etes:</legend>
+        <input
+          type="text"
+          placeholder="adresse mail"
+          name="username"
+          id="username"
+          required
+        />
+        <br />
+        <input
+          type="password"
+          placeholder="password"
+          name="password"
+          id="password"
+          required
+        />
+        <br />
+        <input type="submit" value="login" />
+        <br />
+        <a href="inscrit.html"> Si vous n'avez pas de compte, Inscrivez ici </a>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+[
+  {
+    "username": "etudiant@gmail.com",
+    "password": "aaaaaaaa",
+    "identifient": 1
+  },
+  {
+    "username": "coordinateurPedagogique@gmail.com",
+    "password": "bbbbbbbb",
+    "identifient": 2
+  },
+  {
+    "username": "responsable@gmail.com",
+    "password": "cccccccc",
+    "identifient": 3
+  }
+]
