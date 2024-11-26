@@ -1,0 +1,96 @@
+{
+    "27\/03\/2023": {
+        "cours1": {
+            "typeDeCour": "Cours",
+            "matiere": "ProgWeb",
+            "enseignant": "Fr\u00e9d\u00e9ric Gruau",
+            "salle": "E205",
+            "groupeDuCours": "G3",
+            "horaireDebutCours": "11h30",
+            "horaireFinCours": "12h30",
+            "date": "27\/03\/2023",
+            "jourSemaine": "1"
+        },
+        "cours2": {
+            "typeDeCour": "Soutenance",
+            "matiere": "BD2",
+            "enseignant": "Ouriel Grynszpan",
+            "salle": "E206",
+            "groupeDuCours": "G2",
+            "horaireDebutCours": "8h30",
+            "horaireFinCours": "9h30",
+            "date": "27\/03\/2023",
+            "jourSemaine": "1"
+        },
+        "cours3": {
+            "typeDeCour": "Soutenance",
+            "matiere": "BD2",
+            "enseignant": "Fr\u00e9d\u00e9ric Gruau",
+            "salle": "E204",
+            "groupeDuCours": "G2",
+            "horaireDebutCours": "10h00",
+            "horaireFinCours": "10h30",
+            "date": "29\/03\/2023",
+            "jourSemaine": "3"
+        },
+        "cours4": {
+            "typeDeCour": "Examen",
+            "matiere": "BD2",
+            "enseignant": "Fr\u00e9d\u00e9ric Gruau",
+            "salle": "E204",
+            "groupeDuCours": "G3",
+            "horaireDebutCours": "15h30",
+            "horaireFinCours": "16h30",
+            "date": "28\/03\/2023",
+            "jourSemaine": "2"
+        }
+    },
+    "20\/03\/2023": {
+        "cours1": {
+            "typeDeCour": "Examen",
+            "matiere": "ProgWeb",
+            "enseignant": "Ouriel Grynszpan",
+            "salle": "E203",
+            "groupeDuCours": "G1",
+            "horaireDebutCours": "10h45",
+            "horaireFinCours": "11h00",
+            "date": "22\/03\/2023",
+            "jourSemaine": "3"
+        },
+        "cours2": {
+            "typeDeCour": "Soutenance",
+            "matiere": "LF",
+            "enseignant": "Fr\u00e9d\u00e9ric Gruau",
+            "salle": "E205",
+            "groupeDuCours": "G3",
+            "horaireDebutCours": "14h45",
+            "horaireFinCours": "15h45",
+            "date": "21\/03\/2023",
+            "jourSemaine": "2"
+        }
+    },
+    "3\/04\/2023": {
+        "cours1": {
+            "typeDeCour": "Examen",
+            "matiere": "LF",
+            "enseignant": "Fr\u00e9d\u00e9ric Gruau",
+            "salle": "E205",
+            "groupeDuCours": "G2",
+            "horaireDebutCours": "14h30",
+            "horaireFinCours": "15h30",
+            "date": "3\/04\/2023",
+            "jourSemaine": "1"
+        },
+        "cours2": {
+            "typeDeCour": "Examen",
+            "matiere": "BD2",
+            "enseignant": "Ouriel Grynszpan",
+            "salle": "E204",
+            "groupeDuCours": "G2",
+            "horaireDebutCours": "8h30",
+            "horaireFinCours": "9h30",
+            "date": "7\/04\/2023",
+            "jourSemaine": "5"
+        }
+    }
+}
