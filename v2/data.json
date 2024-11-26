@@ -1,0 +1,142 @@
+{
+    "17\/04\/2023": {
+        "19\/04\/2023": {
+            "G2": {
+                "8h00": {
+                    "typeDeCour": "TD",
+                    "matiere": "Algo",
+                    "enseignant": "Fr\u00e9d\u00e9ric Gruau",
+                    "salle": "E203",
+                    "groupeDuCours": "G2",
+                    "horaireDebutCours": "8h00",
+                    "horaireFinCours": "9h00",
+                    "date": "19\/04\/2023",
+                    "jourSemaine": "3",
+                    "choixCouleur": "#92dd7f",
+                    "semaine": "17\/04\/2023"
+                }
+            }
+        },
+        "17\/04\/2023": {
+            "G3": {
+                "8h00": {
+                    "typeDeCour": "TD",
+                    "matiere": "Algo",
+                    "enseignant": "Fr\u00e9d\u00e9ric Gruau",
+                    "salle": "E203",
+                    "groupeDuCours": "G3",
+                    "horaireDebutCours": "8h00",
+                    "horaireFinCours": "9h00",
+                    "date": "17\/04\/2023",
+                    "jourSemaine": "1",
+                    "choixCouleur": "#7ec5dd",
+                    "semaine": "17\/04\/2023"
+                }
+            }
+        },
+        "18\/04\/2023": {
+            "G3": {
+                "8h00": {
+                    "typeDeCour": "TD",
+                    "matiere": "Langage Formel",
+                    "enseignant": "Fr\u00e9d\u00e9ric Gruau",
+                    "salle": "E202",
+                    "groupeDuCours": "G3",
+                    "horaireDebutCours": "8h00",
+                    "horaireFinCours": "8h30",
+                    "date": "18\/04\/2023",
+                    "jourSemaine": "2",
+                    "choixCouleur": "#feffa8",
+                    "semaine": "17\/04\/2023"
+                }
+            }
+        },
+        "20\/04\/2023": {
+            "G2": {
+                "8h15": {
+                    "typeDeCour": "Examen",
+                    "matiere": "Langage Formel",
+                    "enseignant": "Fr\u00e9d\u00e9ric Gruau",
+                    "salle": "E202",
+                    "groupeDuCours": "G2",
+                    "horaireDebutCours": "8h15",
+                    "horaireFinCours": "8h45",
+                    "date": "20\/04\/2023",
+                    "jourSemaine": "4",
+                    "choixCouleur": "#ff906b",
+                    "semaine": "17\/04\/2023"
+                }
+            },
+            "G1": {
+                "8h30": {
+                    "typeDeCour": "Examen",
+                    "matiere": "Algo",
+                    "enseignant": "Fran\u00e7ois Landes",
+                    "salle": "E203",
+                    "groupeDuCours": "G1",
+                    "horaireDebutCours": "8h30",
+                    "horaireFinCours": "9h30",
+                    "date": "20\/04\/2023",
+                    "jourSemaine": "4",
+                    "choixCouleur": "#ff7086",
+                    "semaine": "17\/04\/2023"
+                }
+            }
+        },
+        "21\/04\/2023": {
+            "G2": {
+                "8h15": {
+                    "typeDeCour": "Examen",
+                    "matiere": "Algo",
+                    "enseignant": "Fran\u00e7ois Landes",
+                    "salle": "E202",
+                    "groupeDuCours": "G2",
+                    "horaireDebutCours": "8h15",
+                    "horaireFinCours": "9h30",
+                    "date": "21\/04\/2023",
+                    "jourSemaine": "5",
+                    "choixCouleur": "#9ef5b8",
+                    "semaine": "17\/04\/2023"
+                }
+            }
+        }
+    },
+    "24\/04\/2023": {
+        "24\/04\/2023": {
+            "G1": {
+                "8h00": {
+                    "typeDeCour": "",
+                    "matiere": "Langage Formel",
+                    "enseignant": "Fran\u00e7ois Landes",
+                    "salle": "E203",
+                    "groupeDuCours": "G1",
+                    "horaireDebutCours": "8h00",
+                    "horaireFinCours": "9h15",
+                    "date": "24\/04\/2023",
+                    "jourSemaine": "1",
+                    "choixCouleur": "#782b72",
+                    "semaine": "24\/04\/2023"
+                }
+            }
+        }
+    },
+    "01\/05\/2023": {
+        "01\/05\/2023": {
+            "G1": {
+                "8h00": {
+                    "typeDeCour": "Amphi",
+                    "matiere": "Algo",
+                    "enseignant": "Fran\u00e7ois Landes",
+                    "salle": "E202",
+                    "groupeDuCours": "G1",
+                    "horaireDebutCours": "8h00",
+                    "horaireFinCours": "9h15",
+                    "date": "01\/05\/2023",
+                    "jourSemaine": "1",
+                    "choixCouleur": "#92dd7f",
+                    "semaine": "01\/05\/2023"
+                }
+            }
+        }
+    }
+}

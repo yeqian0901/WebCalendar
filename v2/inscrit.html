@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylelog.css" />
+    <style>
+      .container {
+        width: 500px;
+        height: 300px;
+        border: 2px solid #63003d;
+        padding: 20px;
+      }
+    </style>
+    <title>Login</title>
+  </head>
+  <body>
+    <form action="inscrit.php" method="post">
+      <div class="container">
+        <div class="box">
+          <input type="radio" class="sex" checked />Male
+          <input type="radio" class="sex" />Female
+        </div>
+        <div class="box">
+          <label>Nom</label>
+          <div>
+            <input type="text" class="name" required />
+          </div>
+        </div>
+        <div class="box">
+          <label>Prenom</label>
+          <div>
+            <input type="text" class="name" required />
+          </div>
+        </div>
+        <div class="box">
+          <label>Adresse Mail</label>
+          <div>
+            <input
+              type="text"
+              id="mail"
+              name="username"
+              onblur="comfirmeMail()"
+              required
+            />
+          </div>
+        </div>
+        <div class="box">
+          <label>Password</label>
+          <div>
+            <input
+              type="password"
+              class="password"
+              id="password"
+              name="password"
+              onblur="comfirmePassword()"
+              placeholder="8-20 chiffres ou lettres"
+              required
+            />
+          </div>
+        </div>
+        <div class="box">
+          <label>Assurez votre Password</label>
+          <div>
+            <input
+              type="password"
+              class="password"
+              id="apassword"
+              onblur="comfirmeAPassword()"
+              required
+            />
+          </div>
+        </div>
+        <div>
+          <label>Choisissez votre condition:</label>
+          <div>
+            <input type="radio" name="id" value="1" checked />Etudiant
+            <input type="radio" name="id" value="2" />Coordinateur pedagogique
+            <input type="radio" name="id" value="3" />Responsable
+          </div>
+        </div>
+        <div class="box">
+          <input type="submit" value="Finir" onclick="stop(event)" />
+        </div>
+      </div>
+    </form>
+  </body>
+  <script>
+    function comfirmePassword() {
+      var pass = document.getElementById("password");
+      if (pass.value.length != 0) {
+        reg = /^(\w){8,20}$/;
+        if (!reg.test(pass.value)) {
+          alert("Merci d'entrer code secret correcte");
+          return false;
+        }
+      }
+      return true;
+    }
+
+    function comfirmeAPassword() {
+      var pass = document.getElementById("password");
+      var apass = document.getElementById("apassword");
+      if (pass.value != apass.value) {
+        alert("Merci d'entrer meme code secret");
+        pass.value = "";
+        apass.value = "";
+        return false;
+      }
+      return true;
+    }
+
+    function comfirmeMail() {
+      var mail = document.getElementById("mail");
+      if (mail.value.length != 0) {
+        reg =
+          /^\w+((-\w+)|(\.\w))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/;
+        if (!reg.test(mail.value)) {
+          alert("Merci d'entrer l'adresse mail correcte");
+          return false;
+        }
+      }
+      return true;
+    }
+
+    function stop(event) {
+      if (!comfirmeMail() && !comfirmeAPassword() && !comfirmePassword()) {
+        event.preventDefault();
+      }
+    }
+  </script>
+</html>
